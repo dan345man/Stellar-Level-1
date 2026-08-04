@@ -69,24 +69,24 @@ Open http://localhost:3000 in your web browser.
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="./screenshots/01-wallet-connected.png" alt="Wallet Connected" width="100%" />
+      <img src="screenshots/01-wallet_connected.png alt="Wallet Connected" width="100%" />
       <br />
       <sub><b>1. Wallet Connected</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="./screenshots/02-balance-displayed.png" alt="Balance Displayed" width="100%" />
+      <img src="screenshots/02-balance_displayed" alt="Balance Displayed" width="100%" />
       <br />
       <sub><b>2. Live XLM Balance</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="./screenshots/03-freighter-signature.png" alt="Freighter Signature" width="100%" />
+      <img src="screenshots/03-successful_transaction" alt="Freighter Signature" width="100%" />
       <br />
       <sub><b>3. Signing in Freighter</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="./screenshots/04-transaction-success.png" alt="Transaction Success" width="100%" />
+      <img src="screenshots/04-transaction history" alt="Transaction Success" width="100%" />
       <br />
       <sub><b>4. Transaction Hash Output</b></sub>
     </td>
