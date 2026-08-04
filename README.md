@@ -64,43 +64,10 @@ npm run dev
 ### 4. Access the Application
 Open http://localhost:3000 in your web browser.
 
-## 📸 Application Screenshots
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="screenshots/01-wallet_connected.png alt="Wallet Connected" width="100%" />
-      <br />
-      <sub><b>1. Wallet Connected</b></sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="screenshots/02-balance_displayed" alt="Balance Displayed" width="100%" />
-      <br />
-      <sub><b>2. Live XLM Balance</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="screenshots/03-successful_transaction" alt="Freighter Signature" width="100%" />
-      <br />
-      <sub><b>3. Signing in Freighter</b></sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="screenshots/04-transaction history" alt="Transaction Success" width="100%" />
-      <br />
-      <sub><b>4. Transaction Hash Output</b></sub>
-    </td>
-  </tr>
-</table>
-
-## 🔗 Verified Testnet Transaction
-Transaction Hash:
+## View screenshots section
+Successful transaction hash
 ```bash
 e7e982d0edf6bad74670e562006236b5081fdf22c2ac96abe048deea4502af6c
-```
-Explorer Link: View Transaction on StellarExpert
-
-
 
 
 
