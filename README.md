@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌟 Stellar XLM Payment dApp
 
-## Getting Started
+A lightweight, modern Stellar dApp built on **Next.js**, **TypeScript**, and **Tailwind CSS**. This application integrates with the **Freighter Browser Extension** to allow users to connect their wallet, view their live XLM balance on the Stellar Testnet, and submit payment or account creation transactions with real-time hash feedback.
 
-First, run the development server:
+---
 
+## ✨ Features
+
+- 🔌 **Wallet Connection**: Connect and disconnect seamlessly using the Freighter browser wallet API.
+- 💰 **Live XLM Balance**: Fetch and display native XLM balances directly from the Stellar Horizon Testnet.
+- 💸 **Testnet XLM Transfers**: Build, sign, and submit native XLM payment or account creation operations on the testnet.
+- ⚡ **Resilient Submissions**: Configured with `TimeoutInfinite` to prevent `tx_too_late` time-bound errors during wallet signing.
+- 🔗 **Transaction Feedback**: Provides instant status updates and transaction hash links for verification on StellarExpert Explorer.
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework**: [Next.js 14+](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Stellar Libraries**:
+  - [`@stellar/freighter-api`](https://github.com/stellar/freighter-api)
+  - [`@stellar/stellar-sdk`](https://github.com/stellar/js-stellar-sdk)
+
+---
+
+## ⚙️ Prerequisites & Environment Setup
+
+Before running the application, make sure you have the following installed and configured:
+
+1. **Node.js**: Version `18.x` or higher installed on your system.
+2. **Freighter Wallet Extension**: Installed in your browser ([Download Freighter](https://www.freighter.app/)).
+3. **Freighter Network Configuration**:
+   - Open the **Freighter Extension**.
+   - Navigate to **Settings > Network**.
+   - Switch the active network to **Test Net**.
+4. **Testnet XLM Funds**:
+   - Ensure your wallet address has Testnet XLM.
+   - If unfunded, use the [Stellar Laboratory Friendbot](https://laboratory.stellar.org/#account-creator) to fund your testnet account with 10,000 XLM.
+
+---
+
+## 🚀 Installation & Local Setup Guide
+
+### 1. Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone [https://github.com/](https://github.com/)<YOUR_GITHUB_USERNAME>/stellar-whitebelt-dapp.git
+cd stellar-whitebelt-dapp
