@@ -47,3 +47,38 @@ Before running the application, make sure you have the following installed and c
 ```bash
 git clone [https://github.com/](https://github.com/)<YOUR_GITHUB_USERNAME>/stellar-whitebelt-dapp.git
 cd stellar-whitebelt-dapp
+```
+
+### 2. Install Project Dependencies
+Run the following command to install required SDKs (@stellar/stellar-sdk, @stellar/freighter-api) and UI dependencies:
+```bash
+npm install
+```
+
+### 3. Run the Local Development Server
+Start the Next.js development server:
+```bash
+npm run dev
+```
+
+### 4. Access the Application
+Open http://localhost:3000 in your web browser.
+
+## 📸 Application Screenshots
+<img width="1326" height="601" alt="01-wallet_connected" src="https://github.com/user-attachments/assets/1ffbab81-c8e4-476b-80cd-1052bdd533e8" />
+<img width="363" height="499" alt="02-balance_displayed" src="https://github.com/user-attachments/assets/e4d528aa-3f2d-40d6-a9b9-c2a5c118c4f9" />
+<img width="932" height="586" alt="03-successful_transaction" src="https://github.com/user-attachments/assets/476b240a-3142-4ad9-836e-15662ce5f746" />
+<img width="1301" height="471" alt="04-transaction history" src="https://github.com/user-attachments/assets/ec0ce6e7-91b4-4d98-ad91-f58ceecb8a59" />
+
+## 🔗 Verified Testnet Transaction
+Transaction Hash:
+```bash
+a5d6b1b322463fc373cfcd8aa328a098d2accb80fe3073e4458fba6523b30a18
+```
+Explorer Link: View Transaction on StellarExpert
+
+
+
+
+
+
