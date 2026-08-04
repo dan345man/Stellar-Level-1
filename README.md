@@ -65,14 +65,33 @@ npm run dev
 Open http://localhost:3000 in your web browser.
 
 ## 📸 Application Screenshots
-1. Wallet Connected
-<img width="1326" height="601" alt="01-wallet_connected" src="https://github.com/user-attachments/assets/1ffbab81-c8e4-476b-80cd-1052bdd533e8" />
-2. Live XLM Balance Displayed
-<img width="363" height="499" alt="02-balance_displayed" src="https://github.com/user-attachments/assets/e4d528aa-3f2d-40d6-a9b9-c2a5c118c4f9" />
-3. Signing Transaction in Freighter
-<img width="932" height="586" alt="03-successful_transaction" src="https://github.com/user-attachments/assets/476b240a-3142-4ad9-836e-15662ce5f746" />
-4. Successful Transaction State
-<img width="1301" height="471" alt="04-transaction history" src="https://github.com/user-attachments/assets/ec0ce6e7-91b4-4d98-ad91-f58ceecb8a59" />
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="./screenshots/01-wallet-connected.png" alt="Wallet Connected" width="100%" />
+      <br />
+      <sub><b>1. Wallet Connected</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="./screenshots/02-balance-displayed.png" alt="Balance Displayed" width="100%" />
+      <br />
+      <sub><b>2. Live XLM Balance</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="./screenshots/03-freighter-signature.png" alt="Freighter Signature" width="100%" />
+      <br />
+      <sub><b>3. Signing in Freighter</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="./screenshots/04-transaction-success.png" alt="Transaction Success" width="100%" />
+      <br />
+      <sub><b>4. Transaction Hash Output</b></sub>
+    </td>
+  </tr>
+</table>
 
 ## 🔗 Verified Testnet Transaction
 Transaction Hash:
